@@ -1,0 +1,42 @@
+.Home{
+  background-color: aqua;
+  height: 50px;
+  text-align: center;
+  border-radius: 50px;
+}
+.Home a {
+  float: right;
+  padding: 15px 20px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 73px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.Home a:hover {
+  background-color: rgb(2, 153, 2);
+  transition: 0.73461s
+}
+.Home span{
+  float: left;
+  font-family: "Sofia", sans-serif;
+  font-size: xx-large;
+}
+.Main{
+ background:url("hejo.jpg");
+ height: 600px;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ width: 100%;
+}
+button{
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+img{
+  justify-content: center;
+  align-content: center;
+}
