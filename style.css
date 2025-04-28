@@ -24,7 +24,7 @@ nav a:hover {
     transition: 0.5s;
 }
 section.home{
-    background: url("https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-5de8-61f7-8082-b03283f3f5e2/raw?se=2025-04-28T11%3A24%3A25Z&sp=r&sv=2024-08-04&sr=b&scid=3fcb7f0b-543d-5934-9561-121452114f94&skoid=0abefe37-d2bd-4fcb-bc88-32bccbef6f7d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-28T03%3A32%3A09Z&ske=2025-04-29T03%3A32%3A09Z&sks=b&skv=2024-08-04&sig=Q9yhnzMy3BjFO9lkjT3h9J3/ACuKOKsp4CuJqtl8R4E%3D");
+    background: url("background home.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
