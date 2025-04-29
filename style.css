@@ -5,7 +5,6 @@ header{
     display: flex;
     top: 0;
     background-color: chocolate;
-    color: beige;
     padding: 10px;
     width: 100%;
     justify-content: space-between;
@@ -15,7 +14,7 @@ header{
 }
 nav a{
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 7px 15px;
     color: rgb(0, 0, 0);
     border-radius: 20px;
 }
