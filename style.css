@@ -5,7 +5,7 @@ header{
     display: flex;
     top: 0;
     background-color: chocolate;
-    color: white;
+    color: beige;
     padding: 10px;
     width: 100%;
     justify-content: space-between;
@@ -20,7 +20,7 @@ nav a{
     border-radius: 20px;
 }
 nav a:hover {
-    background-color: rgb(0, 88, 4);
+    background-color: navajowhite;
     transition: 0.5s;
 }
 section.home{
@@ -32,7 +32,7 @@ section.home{
 }
 section.home div{
     text-align: center;
-    color: white;
+    color: aliceblue;
     margin: auto;
     width: 70%;
     padding: 20px;
@@ -42,7 +42,7 @@ section.home .welcome{
     font-size: 30px;
 }
 section.home a{
-    color: white;
+    color: aliceblue;
     padding: 10px 20px;
     text-decoration: none;
     box-shadow: 0px 0px 3px;
@@ -62,9 +62,10 @@ section.about div{
     text-align: center;
     margin: auto;
     width: 70%;
+    font-size: large;
 }
 section.about img{
-    height: 400px;
+    height: 370px;
     width: auto;
 }
 section.products{
@@ -81,31 +82,41 @@ section.products .container{
     padding-top: 50px;
 }
 section.products .container .card{
-    background-color: white;
+    background-color: goldenrod;
     text-align: center;
     padding: 5px;
     width: 200px;
-    height: 490px;
+    height: 450px;
     margin: 15px;
     box-shadow: 0px 0px 3px;
     border-radius: 20px;
 }
 section.products .container .card1{
-    background-color: white;
+    background-color: chocolate;
     text-align: center;
     padding: 5px;
     width: 200px;
-    height: 490px;
+    height: 450px;
     margin: 15px;
     box-shadow: 0px 0px 3px;
     border-radius: 20px;
 }
 section.products .container .card2{
-    background-color: white;
+    background-color: rgb(255, 0, 0);
     text-align: center;
     padding: 5px;
     width: 200px;
-    height: 490px;
+    height: 450px;
+    margin: 15px;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.products .container .card3{
+    background-color: rgb(255, 193, 0);
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    height: 450px;
     margin: 15px;
     box-shadow: 0px 0px 3px;
     border-radius: 20px;
@@ -118,6 +129,9 @@ section.products .container .card img{
     height: 170px;
 }
 .card2 img{
+    height: 170px;
+}
+.card3 img{
     height: 170px;
 }
 section.products .container .card a{
@@ -153,6 +167,17 @@ section.products .container .card2 a:hover{
     transition: 0,5;
     background-color: green;
 }
+section.products .container .card3 a{
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.products .container .card3 a:hover{
+    transition: 0,5;
+    background-color: green;
+}
 section.contact{
     background-color: orange;
     height: 600px;
@@ -181,6 +206,7 @@ footer .medsos a{
     font-size: 20px;
     padding: 5px 20px;
     border-radius: 20px;
+    background-color: red;
 }
 footer .medsos a:hover{
     background-color: cornflowerblue;
@@ -214,6 +240,11 @@ footer .medsos a:hover{
     transition: 0.5s;
 }
 .card2:hover{
+    animation: getar 0.5s;
+    scale: 1.2;
+    transition: 0.5s;
+}
+.card3:hover{
     animation: getar 0.5s;
     scale: 1.2;
     transition: 0.5s;
